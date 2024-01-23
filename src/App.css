@@ -1,0 +1,88 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: auto;
+  text-align: center;
+  max-width: 1200px;
+  /* min-width: 800px; */
+}
+
+header {
+  height: 10vh;
+  line-height: 10vh;
+}
+
+.add-form {
+  height: 20vh;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 20px;
+
+  border: 2px solid aquamarine;
+  border-radius: 30px;
+}
+
+.input-box {
+  display: inline-block;
+  margin: 0 30px;
+
+  text-align: left;
+}
+
+.input-box p {
+  font-size: 3rem;
+}
+
+.input-box input {
+  width: 300px;
+  height: 30px;
+}
+
+.add-form button {
+  width: 100px;
+  height: 100px;
+}
+
+.ongoing-box,
+.finish-box {
+  text-align: left;
+  height: 30vh;
+}
+
+.ongoing-box h1,
+.finish-box h1 {
+  height: 7vh;
+  padding: 10px;
+  line-height: 8vh;
+}
+
+li {
+  list-style: none;
+}
+
+.todo-card {
+  border: 2px solid pink;
+  border-radius: 10px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.todo-card p {
+  height: 60%;
+}
+
+.todo-card button {
+  width: 60px;
+  height: 30px;
+  margin-right: 15px;
+}
